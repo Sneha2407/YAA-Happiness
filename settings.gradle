@@ -1,0 +1,2 @@
+rootProject.name = "YAA Happiness 2.0"
+include ':app'

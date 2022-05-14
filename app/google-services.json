@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "950769705211",
+    "project_id": "yaa-happiness",
+    "storage_bucket": "yaa-happiness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950769705211:android:a2632ebb688fdac4f3505e",
+        "android_client_info": {
+          "package_name": "com.sreesubh.yaahappiness20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950769705211-da3ed5rqst9omfhpsnk8e2ft4lars7uu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sreesubh.yaahappiness20",
+            "certificate_hash": "03385341eed46f84dfc338f7c732944868777266"
+          }
+        },
+        {
+          "client_id": "950769705211-4i4flfoorphqqcjd5l754cjo27683i30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOg4E7VqyOerjfmM-T3_0BqHZeSmkSXvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950769705211-4i4flfoorphqqcjd5l754cjo27683i30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

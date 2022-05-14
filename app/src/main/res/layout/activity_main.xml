@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal|bottom"
+        android:layout_height="150dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font_regular_sans"
+        android:layout_weight="0"
+        android:text="Doing Good Right? \nGood Click here" />
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="#000"
+        android:fontFamily="@font/font_regular_sans"
+        android:layout_weight="0"
+        android:text="LOGIN" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:textSize="24sp"
+        android:background="#F4E02E"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/font_regular_sans"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center|bottom"
+        android:layout_height="70dp"
+        android:textSize="22sp"
+        android:paddingBottom="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/font_regular_sans"
+        android:layout_weight="0"
+        android:text="On a to pursuit happiness?" />
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="5dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="#000"
+        android:fontFamily="@font/font_regular_sans"
+        android:layout_weight="1"
+        android:text="SIGNUP" />
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/gsignin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
